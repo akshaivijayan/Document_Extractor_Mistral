@@ -39,4 +39,4 @@ Upload → Mistral OCR → Extract Text → Mistral Chat → Structured JSON
 
 ```bash
 git clone https://github.com/akshaivijayan/documind-mistral-native.git
-cd documind-mistral-native
+cd Document_Extractor_Mistral
