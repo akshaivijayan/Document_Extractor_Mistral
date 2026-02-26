@@ -26,9 +26,8 @@ const upload = multer({
 
 if (!fs.existsSync("uploads")) fs.mkdirSync("uploads");
 
-const client = new Mistral({
-    apiKey: process.env.MISTRAL_API_KEY
-});
+
+const client = new Mistral(process.env.MISTRAL_API_KEY);
 
 function safeDelete(filePath) {
     try {
