@@ -1,0 +1,33 @@
+# Node
+node_modules/
+
+# Environment variables
+.env
+
+# Uploaded temp files
+uploads/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Render build cache
+.render
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
+*.DS_Store
+
+# Windows
+desktop.ini
