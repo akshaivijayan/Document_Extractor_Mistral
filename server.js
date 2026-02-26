@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
-import  Mistral  from "@mistralai/mistralai";
+import { Mistral } from "@mistralai/mistralai";
 
 dotenv.config();
 
