@@ -40,3 +40,4 @@ Upload → Mistral OCR → Extract Text → Mistral Chat → Structured JSON
 ```bash
 git clone https://github.com/akshaivijayan/documind-mistral-native.git
 cd Document_Extractor_Mistral
+- Make sure to create a .env file and add the mistral api key (MISTRAL_API_KEY= )
